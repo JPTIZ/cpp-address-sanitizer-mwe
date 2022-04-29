@@ -1,0 +1,9 @@
+interceptor_name:delete_non_mallocd
+interceptor_via_fun:delete_non_mallocd
+interceptor_via_lib:libc
+odr_violation:delete_non_mallocd
+
+interceptor_name:*delete_non_mallocd*
+interceptor_via_fun:*delete_non_mallocd*
+interceptor_via_lib:*libc*
+odr_violation:*delete_non_mallocd*

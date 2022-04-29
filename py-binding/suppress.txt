@@ -1,0 +1,6 @@
+# leak:/usr/lib/libpython3.9
+leak:/usr*lib/libLLVM-12
+leak:*malloc*
+# leak:Py_InitializeFromConfig
+# leak:PyImport_ImportModuleLevelObject
+# leak:_PyEval_EvalFrameDefault
